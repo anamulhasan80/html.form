@@ -1,0 +1,103 @@
+/*global css code strat from hear*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/*global css code end*/
+
+
+
+
+.header-section {
+   
+    padding-top: 20px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main .logo {
+    float: left;
+    width: 20%;
+
+}
+
+
+.main .logo img {
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+
+.main .menu {
+    text-align: center;
+    float: left;
+    width: 60%;
+
+}
+
+.main .menu ul li {
+    color: #0e72cc;
+    list-style: none;
+    font-weight: 500;
+    display: inline;
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.main .buttons {
+    float: left;
+    width: 20%;
+
+}
+
+.main .buttons button {
+    background-color: #0e72cc;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+.main .buttons button a.buttons button:hover {
+    background: #000;
+   
+    
+}
